@@ -13,14 +13,36 @@ function makeCoffee( sugar, milk )
     return instructions;
 }
 
-var car = {
+var car1 = {
     color : "Black",
-    brand : "Honda",
+    make : "Honda",
     drive : function(){return "drive"; }
 }
+
 
 var shoppinglist = [
     "Apple",
     "Orange",
     "Pear"
+];
+
+var car2 = {
+    make : "Honda",
+    engine : {
+        name: "L5A1",
+        vtec: true,
+        size: 1.5,
+        make : "Honda",
+        fuel: "petrol",
+        pistons: [{ manufacturer: "skunk2"}, {manufacturer: "skunk2"}, {manufacturer: "skunk2"}, {manufacturer: "skunk2"}]
+    },
+    drive: function() {return "drive"; }
+}
+
+var array = [
+    "string", 
+    100, 
+    ["embed", 200],
+    {car: "ford"},
+    function() {return "drive"; }
 ];
