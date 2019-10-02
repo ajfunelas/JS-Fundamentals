@@ -19,7 +19,6 @@ var car1 = {
     drive : function(){return "drive"; }
 }
 
-
 var shoppinglist = [
     "Apple",
     "Orange",
