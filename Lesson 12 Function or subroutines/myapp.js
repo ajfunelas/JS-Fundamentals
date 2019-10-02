@@ -13,4 +13,14 @@ function makeCoffee( sugar, milk )
     return instructions;
 }
 
-console.log( makeCoffee( 2, 20 ) );
+var car = {
+    color : "Black",
+    brand : "Honda",
+    drive : function(){return "drive"; }
+}
+
+var shoppinglist = [
+    "Apple",
+    "Orange",
+    "Pear"
+];
