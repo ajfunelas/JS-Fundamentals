@@ -29,7 +29,7 @@ var shoppinglist = [
 var car2 = {
     make : "Honda",
     engine : {
-        name: "L5A1",
+        name: "L15A1",
         vtec: true,
         size: 1.5,
         make : "Honda",
@@ -43,6 +43,6 @@ var array = [
     "string", 
     100, 
     ["embed", 200],
-    {car: "ford"},
+    {car: "Honda"},
     function() {return "drive"; }
 ];
