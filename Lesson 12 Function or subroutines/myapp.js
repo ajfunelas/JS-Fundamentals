@@ -32,6 +32,7 @@ var car2 = {
         name: "L15A1",
         vtec: true,
         size: 1.5,
+        hp: 110,
         make : "Honda",
         fuel: "petrol",
         pistons: [{ manufacturer: "skunk2"}, {manufacturer: "skunk2"}, {manufacturer: "skunk2"}, {manufacturer: "skunk2"}]
