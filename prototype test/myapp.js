@@ -1,7 +1,8 @@
 class player {
-    constructor(name, energy) {
+    constructor(name, energy, level) {
         this.name = name
         this.energy = energy
+        this.level = level
     }
     eat(amount) {
         console.log(`${this.name} is eating.`)
@@ -17,13 +18,6 @@ class player {
     }
 }
 
-function archer(name, energy, level){
-    player.call(this, name, energy)
-
-    this.level = level
-}
 
 const aj = new player('Abner', 100, 99)
 const kim = new player('Kim', 200, 98)
-
-const archer1 = new player ('archer', 100, 99)
